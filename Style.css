@@ -1,0 +1,664 @@
+*{margin: 0; padding: 0;}
+
+body {
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+/* header */
+header{ padding: 50px;}
+
+header a{text-decoration: none; color: #333333;}
+
+/* nav */
+nav {
+    margin-top: 10px;
+    position: absolute;
+    width: 1100px;
+    
+}
+
+nav ul{
+    list-style: none;
+    border-top: 1px solid #B4C8BB;
+    border-bottom: 1px solid #B4C8BB;
+    text-align: center;
+    font-weight : 600;
+}
+
+nav ul li {
+    display: inline;
+    letter-spacing: .4em;
+    margin-left: 6em;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 3em;
+}
+
+nav ul li a.current{
+    color: red;
+}
+
+/* box */
+.box0 {
+    width: 1100px;
+    height: 1000px;
+    border-color: white;
+    margin: auto;
+}
+.box1 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 500px;
+    height: 550px;
+    padding: 12px;
+    word-break: break-all;
+    position: absolute;
+    top: 300px;
+    line-height: 70px;
+}
+
+.box2 {
+    float: right;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+    padding: 12px;
+    position: relative;
+    top: 127px;
+    line-height: 56px;
+}
+
+.box3{
+    float: right;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 524px;
+    height: 275px;
+    position: relative;
+    top: 426px;
+    left: 528px;
+}
+
+.box4{
+    float: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 1100px;
+    height: 430px;
+    position: relative;
+    top: 130px;
+}
+
+.box5{
+    float: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 1100px;
+    height: 50px;
+    position: relative;
+    bottom: 304px;
+}
+
+.box6{
+    float: center;
+    width: 1100px;
+    height: 50px;
+    position: relative;
+    bottom: 61px;
+}
+
+.box7{
+    position: relative;
+    top: 100px;
+    left: 400px;
+}
+
+.box8{
+    position: relative;
+    top: 100px;
+    left: 680px;
+}
+
+.box9{
+    position: absolute;
+    left: 270px;
+    top: 10px;
+    font-size: large;
+}
+
+.box10{
+    position: absolute;
+    left: 10px;
+    top: 60px;
+}
+
+.box11{
+    position: absolute;
+    left: 1000px;
+    top: 470px;
+}
+
+.box12{
+    float: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 952px;
+    height: 430px;
+    position: relative;
+    top: 130px;
+    left: 144px;
+}
+
+.box13{
+    float: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top:  303px;
+}
+
+.box14{
+    float: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 952px;
+    height: 50px;
+    position: relative;
+    left: 144px;
+    bottom: 304px;
+}
+
+.box15{
+    position: relative;
+    bottom: 342px;
+    left: 899px;
+}
+
+.box16{
+    float: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 540px;
+    height: 430px;
+    position: absolute;
+    top: 303px;
+}
+
+.box17{
+    float: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 540px;
+    height: 430px;
+    position: relative;
+    top: 130px;
+    left: 557px;
+}
+
+.box18{
+    float: center;
+    width: 1100px;
+    height: 900px;
+    position: absolute;
+}
+/* h2 */
+h2{
+    line-height: 150px;
+    font-size: xx-large;
+}
+
+/* h3 */
+h3{
+    font-size: x-large;
+}
+
+/* aside#left */
+aside#left{
+    float: left;  
+    width: 500px;
+    text-align: center;
+    
+}
+
+aside#left ul{
+    list-style: none;  
+}
+
+aside#left ul li{
+    color: black;
+    padding: 10px;
+    word-spacing: 5px;
+    font-size: x-large;
+}
+
+aside#left ul li a{
+    text-decoration: none;
+}
+
+/* aside#right */
+aside#right{
+    float: left;
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/* aside#right2 */
+aside#right2{
+    float: left;
+    padding: 20px;
+    margin-left: 28px;
+}
+
+/* Input Type */
+.submit{
+    position: absolute;
+    left: 420px;
+    bottom: 26px;
+}
+
+.writebutton{
+    position: absolute;
+    left: 230px;
+    top: 12px;
+    word-spacing: 15px;
+}
+
+/* notice title */
+.noticetitle{
+    margin-top: 10px;
+    position: absolute;
+    top: 4px;
+    width: 1100px;
+}
+
+.noticetitle ul{
+    list-style: none;
+    text-align: left;
+    font-weight : 600;
+}
+
+.noticetitle ul li {
+    display: inline;
+    letter-spacing: .4em;
+}
+
+.noticetitle ul li.Sequence{
+    margin-left: 40px;
+}
+
+.noticetitle ul li.title{
+    margin: 340px;
+}
+
+.noticetitle ul li.date{
+    margin-right: 50px;
+}
+
+.noticetitle ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 3em;
+}
+
+/* paging */
+.paging ul {
+	list-style:none;
+	float:left;
+	display:inline;
+}
+.paging ul li {
+	float:left;
+}
+.paging ul li a {
+	float:left;
+	padding:4px;
+	margin-right:3px;
+	width:15px;
+	color:#000;
+	font:bold 12px tahoma;
+	border:1px solid #eee;
+	text-align:center;
+	text-decoration:none;
+}
+
+
+/* Suggestiontitle */
+
+.suggestionstitle ul{
+    list-style: none;
+    float: left;
+    display: inline;
+    padding: 7px;
+    margin-right: 10px;
+    word-spacing: 5px;
+    width: 120px;
+    height: 500px;
+    position: absolute;
+    top: 5px;
+    
+}
+
+.suggestionstitle ul li{
+    float: left;
+    font-size: 600;
+    font-weight: bolder;
+    padding: 12px;
+
+}
+
+.suggestionstitle ul li a{
+    text-decoration: none;
+}
+
+.suggestionstitle ul li a.current{
+    color: red;
+}
+
+ul li a:visited{
+    color: black;
+}
+
+ul li a:link{
+    color: black;
+}
+
+
+
+/* Suggestitle */
+
+.Suggestitle{
+    margin-top: 10px;
+    position: absolute;
+    top: 4px;
+    width: 950px;
+}
+
+.Suggestitle ul{
+    list-style: none;
+    text-align: left;
+    font-weight : 600;
+}
+
+.Suggestitle ul li {
+    display: inline;
+    letter-spacing: .4em;
+}
+
+.Suggestitle ul li.Sequence{
+    margin-left: 40px;
+}
+
+.Suggestitle ul li.title{
+    margin: 260px;
+}
+
+.Suggestitle ul li.date{
+    margin-right: 40px;
+}
+
+.Suggestitle ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 3em;
+}
+
+/* Questiontitle */
+.Questiontitle{
+    margin-top: 10px;
+    position: absolute;
+    top: 4px;
+    width: 1100px;
+}
+
+.Questiontitle ul{
+    list-style: none;
+    text-align: left;
+    font-weight : 600;
+}
+
+.Questiontitle ul li {
+    display: inline;
+    letter-spacing: .4em;
+}
+
+.Questiontitle ul li.Sequence{
+    margin-left: 40px;
+}
+
+.Questiontitle ul li.title{
+    margin: 260px;
+}
+
+.Questiontitle ul li.date{
+    margin-right: 40px;
+}
+
+.Questiontitle ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 3em;
+}
+
+/* qnatitle */
+.qnatitle ul{
+    list-style: none;
+    float: left;
+    display: inline;
+    padding: 7px;
+    margin-right: 10px;
+    word-spacing: 5px;
+    width: 120px;
+    height: 500px;
+    position: absolute;
+    top: 1px;
+    
+}
+
+.qnatitle ul li{
+    float: left;
+    font-size: 600;
+    font-weight: bolder;
+    padding: 10px;
+
+}
+
+.qnatitle ul li a{
+    text-decoration: none;
+}
+
+.qnatitle ul li a.current{
+    color: red;
+}
+
+/* top3 */
+.top3 ul{
+    float: left;
+    display: inline;
+    padding: 7px;
+    margin-right: 10px;
+    word-spacing: 5px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+.top3 ul ol li{
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.top3 ul ol li a{
+    text-decoration: none;
+}
+
+/* information title */
+
+.informationtitle{
+    float: left;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 1096px;
+    height: 50px;
+    position: absolute;
+    top: 70px;
+}
+
+.informationtitle ul{
+    list-style: none;
+    float: center;
+    display: inline;
+    word-spacing: 5px;
+    padding: 7px;
+    width: 1100px;
+    height: 0px;
+    position: absolute;
+}
+
+.informationtitle ul li{
+    list-style: none;
+    text-align: left;
+    font-weight : 600;
+    font-size: x-large;
+    display: inline;
+    margin: 300px;
+}
+
+.informationtitle ul li.ppp{
+    margin: 0px;
+}
+
+.informationtitle ul li a{
+    text-decoration: none;
+}
+
+.informationtitle01{
+    float: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 540px;
+    height: 50px;
+    position: absolute;
+    top: 130px;
+}
+
+.informationtitle01 ul{
+    list-style: none;
+    float: center;
+    display: inline;
+    word-spacing: 5px;
+    width: 400px;
+    position: absolute;
+    left: 195px;
+}
+
+.informationtitle01 ul li{
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 10px;
+    position: absolute;
+}
+
+.informationtitle02{
+    float: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B4C8BB;
+    border-radius: 20px;
+    width: 540px;
+    height: 50px;
+    position: absolute;
+    left: 557px;
+    top: 130px;
+}
+
+.informationtitle02 ul{
+    list-style: none;
+    float: center;
+    display: inline;
+    word-spacing: 5px;
+    width: 400px;
+    position: absolute;
+    left: 206px;
+}
+
+.informationtitle02 ul li{
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 10px;
+    position: absolute;
+}
+
+/* lastyear */
+.box16 ul{
+    float: left;  
+    width: 500px;
+    text-align: left;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+
+.box16 ul li{
+    list-style: none;
+    color: black;
+    padding: 15px;
+    word-spacing: 5px;
+    font-weight: 500;
+    font-size: x-large;  
+}
+
+/* thisyear */
+.box17 ul{
+    float: left;  
+    width: 500px;
+    text-align: left;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+
+.box17 ul li{
+    list-style: none;
+    color: black;
+    padding: 15px;
+    word-spacing: 5px;
+    font-weight: 500;
+    font-size: x-large;  
+}
